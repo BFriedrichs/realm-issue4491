@@ -1,0 +1,13 @@
+{
+  "name": "realm-issue4491",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^18.0.3",
+    "realm": "^10.16.0"
+  },
+  "scripts": {
+    "start": "ELECTRON_ENABLE_STACK_DUMPING=true ELECTRON_ENABLE_LOGGING=true electron src/index.js"
+  }
+}
